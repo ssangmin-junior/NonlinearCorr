@@ -5,12 +5,12 @@
 
 **acedcor** is a Python package designed to detect and diagnose nonlinear relationships between variables. It combines the non-parametric **Alternating Conditional Expectation (ACE)** algorithm with **Distance Correlation (dCor)** to identify hidden dependencies that traditional metrics like Pearson correlation often miss.
 
-Key Metric: **Delta dCor** ($\Delta\text{dCor} = \text{dCor}_{\text{After}} - \text{dCor}_{\text{Before}}$). A high $\Delta\text{dCor}$ serves as a diagnostic signal for symmetric, non-linear relationships.
+Key Metric: **Delta dCor** (ΔdCor = dCor_After - dCor_Before). A high **ΔdCor** serves as a diagnostic signal for symmetric, non-linear relationships.
 
 ## Features
 
 - **Unified Interface**: Perform ACE transformation and dCor calculation in a single function.
-- **Diagnostic Power**: Use $\Delta\text{dCor}$ to distinguish between linear/monotonic and complex symmetric relationships.
+- **Diagnostic Power**: Use **ΔdCor** to distinguish between linear/monotonic and complex symmetric relationships.
 - **Visualization**: Easily integrate with matplotlib to visualize transformations.
 - **Robustness**: Validated against heavy-tailed and skewed error distributions.
 
