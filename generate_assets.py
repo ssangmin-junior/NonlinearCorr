@@ -71,7 +71,7 @@ def run_simulation():
         os.makedirs('img')
         
     results = []
-    n = 1000 # Sample size sufficient for plotting
+    n = 2000 # Sample size sufficient for plotting
     np.random.seed(42)
     
     print("Running simulation for 19 conditions...")
