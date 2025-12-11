@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.pdf
+!swx.pdf
+!swx_kr.pdf
+.ipynb_checkpoints/
+temp/
