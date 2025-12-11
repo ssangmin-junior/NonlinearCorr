@@ -59,6 +59,30 @@ print(f"dCor After:  {results['dcor_after']:.4f}")
 print(f"Improvement: {results['delta_dcor']:.4f}")
 ```
 
+## Reproducibility (Paper Results)
+
+This repository includes the script used to generate the simulation results and figures for the **SoftwareX** paper submission.
+
+To reproduce the full set of experiments (Figures 3, 4, 10 and Tables 2, 3):
+
+```bash
+# Ensure requirements are installed
+pip install -r requirements.txt
+
+# Run the simulation script
+python generate_assets.py
+```
+*Outputs will be saved in the `img/` directory.*
+
+## File Structure
+
+- `acedcor/`
+  - `core.py`: Main implementation of the ACE-dCor algorithms connecting Python and R.
+  - `__init__.py`: Package initialization exposing the public API.
+- `generate_assets.py`: Simulation script to reproduce paper figures and results.
+- `setup.py`: Package installation configuration.
+
+
 ## Citation
 
 If you use this software in your research, please cite:
